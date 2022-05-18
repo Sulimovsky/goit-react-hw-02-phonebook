@@ -1,0 +1,28 @@
+.form {
+    width: 100%;
+}
+.label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: black;
+}
+.input {
+    padding: 5px;
+    border: 2px solid gray;
+    border-radius: 6px;
+}
+.btn {
+    padding: 10px 20px;
+    color: white;
+    background-color: orange;
+    border: 2px solid orange;  
+    border-radius: 6px;
+    cursor: pointer;
+}
+.btn:hover,
+.btn:focus {
+    color: black;
+    background: transparent;
+}
