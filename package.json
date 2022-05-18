@@ -1,6 +1,6 @@
 {
   "name": "goit-react-hw-02-feedback",
-  "homepage": "https://Sulimovsky.github.io/goit-react-hw-02-feedback",
+  "homepage": "https://Sulimovsky.github.io/goit-react-hw-02-phonebook",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,7 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build --public-url /goit-react-hw-02-feedback/",
+    "build": "react-scripts build --public-url /goit-react-hw-02-phonebook/",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "prepare": "husky install",

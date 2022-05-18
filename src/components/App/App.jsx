@@ -35,7 +35,9 @@ class App extends Component {
 
   getVisibleContacts = () => {
     const { contacts, filter } = this.state;
-    return contacts.filter(({ name }) => name.toLowerCase().includes(filter));
+    return contacts.filter(({ name }) =>
+      name.toLowerCase().includes(filter.toLowerCase()),
+    );
   };
 
   handleDeleteContact = idItem => {
